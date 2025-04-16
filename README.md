@@ -1,27 +1,20 @@
 TAHO Document Classifier
-A document classification system using a machine learning model, accessible through a React-based user interface.
+A document classification system using a mocked model, accessible through a React-based user interface.
 
-📁 Project Structure
-graphql
-Copier
-Modifier
+📁 Project Structure  
 taho-document-classifier/
 ├── frontend/      # React app (TypeScript + TailwindCSS)
 ├── backend/       # FastAPI backend 
 ├── data/          # SQLite database 
 ├── tests/         # tests
 ⚙️ Installation & Execution
-🔧 Backend Setup
-bash
-Copier
-Modifier
+🔧 Backend Setup 
 # Navigate to backend folder
 cd backend
 
 # Create and activate virtual environment
-python -m venv venv
-source venv/bin/activate        # On macOS/Linux
-venv\Scripts\activate           # On Windows
+python -m venv venv 
+venv\Scripts\activate           
 
 # Install required packages
 pip install -r requirements.txt
@@ -31,10 +24,7 @@ uvicorn app.main:app --reload
 
 # to expose it to the local network on port 8000
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-🌐 Frontend Setup
-bash
-Copier
-Modifier
+🌐 Frontend Setup 
 # Navigate to frontend folder
 cd frontend
 
