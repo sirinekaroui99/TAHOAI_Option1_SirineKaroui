@@ -24,7 +24,7 @@ uvicorn app.main:app --reload
 
 # to expose it to the local network on port 8000
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-🌐 Frontend Setup 
+
 # Navigate to frontend folder
 cd frontend
 
